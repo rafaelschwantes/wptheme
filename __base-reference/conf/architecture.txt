@@ -1,0 +1,71 @@
+base/
+|
+|- .vscode/
+|  |- settings.json				// Project-related settings
+|
+|- assets/						// Source files to be compiled
+|  |- css_lib/					// CSS third-party libraries
+|  |- js/						// JS source files
+|  |- js_lib/					// JS third-party libraries
+|  |- scss/						// SASS source files
+|
+|- conf/						// Standards to follow
+|  |- architecture.txt			// Explanation of the project's architecture
+|  |- generators.txt			// Generator rules to follow
+|  |- js.txt					// JS rules to follow
+|  |- npm.txt					// Required packages to install
+|  |- php.txt					// PHP rules to follow
+|  |- plugins.txt				// Required plugins to install
+|  |- scss.txt					// SCSS rules to follow
+|
+|- dist/
+|  |- css/
+|  |  |- main.min.css			// Compiled CSS
+|  |
+|  |- docs/						// Theme-related documents
+|  |
+|  |- fonts/					// Host custom fonts
+|  |
+|  |- images/					// Theme-related images, icons, etc.
+|  |
+|  |- js/
+|  |  |- main.min.js			// Compiled JS
+|  |  |- vendors.min.js			// Compiled JS libraries
+|
+|- inc/
+|  |- blocks/					// Gutenberg blocks to be included
+|  |
+|  |- cookies/
+|  |  |- conf.php				// Style and other cookies configurations
+|  |  |- controller.php			// Loads cookies controller from lib
+|  |  |- defines.php			// Constants definitions
+|  |  |- functions.php			// Cookies-related functions
+|  |
+|  |- functions/
+|  |  |- actions.php			// Declaration of AJAX actions/endpoints
+|  |  |- commons.php			// Declaration of common functions
+|  |  |- generators.php			// Declaration of JSON generation functions
+|  |  |- translations.php		// Register translatable strings
+|  |
+|  |- post-types/
+|  |  |- one-post-type.php      // Declaration of custom post type, ACF fields and translatable strings
+|  |  |- another-post-type.php  // Declaration of custom post type, ACF fields and translatable strings
+|  |
+|  |- shortcodes/
+|  |  |- one-shortcode.php      // Declaration of custom shortcode
+|  |  |- anoher-shortcode.php   // Declaration of custom shortcode
+|
+|- page-templates/				// WordPress page templates
+|  |- cookies-settings.php		// Template to display cookies settings form
+|
+|- services/
+|  |- generators.php			// Declaration of JSON generation functions for outside consumption
+|
+|- template-parts/				// WordPress template parts
+|
+|- footer.php					// Layout footer
+|- functions.php				// Main functions file
+|- header.php					// Layout header
+|- index.php					// Main index file
+|- page.php						// Single page template
+|- style.css					// Main style file

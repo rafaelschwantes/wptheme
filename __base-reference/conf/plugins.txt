@@ -1,0 +1,7 @@
+The following plugins are required to use this theme:
+- Advanced Custom Fields (https://pt.wordpress.org/plugins/advanced-custom-fields/)
+- Polylang (https://pt.wordpress.org/plugins/polylang/)
+
+More useful plugins (optional):
+- Pods - Custom Content Types and Fields (https://pt.wordpress.org/plugins/pods/)
+- Safe SVG (https://pt.wordpress.org/plugins/safe-svg/)

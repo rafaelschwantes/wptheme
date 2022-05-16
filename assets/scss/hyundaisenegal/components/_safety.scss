@@ -1,0 +1,25 @@
+@mixin mixinSafety($breakpoint) {
+    
+    @if($breakpoint == 'mobile'){
+
+
+    }
+
+    @if($breakpoint == 'tablet'){
+
+
+    }
+
+    @if($breakpoint == 'desktop'){
+        
+    }
+
+    @if($breakpoint == 'xx-1200'){
+
+    }
+
+
+    @if($breakpoint == 'xx-1400'){
+
+    }
+}   

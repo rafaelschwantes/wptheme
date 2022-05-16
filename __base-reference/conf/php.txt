@@ -1,0 +1,5 @@
+This project should follow the WordPress coding standards.
+https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/
+
+For increased security, the developer should make use of functions such as esc_attr, esc_html and esc_url.
+https://wordpress.stackexchange.com/a/321312

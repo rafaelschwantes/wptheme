@@ -1,0 +1,1 @@
+This project should avoid the usage of jQuery.

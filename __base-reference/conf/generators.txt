@@ -1,0 +1,2 @@
+All JSON generation functions to target the site's "uploads" folder.
+These functions should save the files to /data and log to /logs.

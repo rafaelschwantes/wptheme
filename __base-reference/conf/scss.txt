@@ -1,0 +1,5 @@
+This project should follow the WordPress coding standards.
+https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/
+
+This project should follow the BEM naming conventions.
+http://getbem.com/naming/

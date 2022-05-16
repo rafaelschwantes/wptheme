@@ -1,0 +1,157 @@
+.pipContainer {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 12px;
+}
+
+.pipSectionHeader {
+    height: calc(100vh - 110px);
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+}
+
+.pipSectionHeader .pip-header-bgimage {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.pipSectionHeader .pip-header-holder {
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+    width: 100%;
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 7rem;
+}
+
+.pipSectionHeader .pip-header-holder .pip-header-image {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pipSectionHeader .pip-header-holder .pip-header-text {
+    position: absolute;
+    left: 1rem;
+    display: block !important;
+    bottom: 2.5rem;
+    width: 100%;
+}
+
+.pipSectionHeader .pip-header-holder h1 {
+    font-family: HyundaiBold,Arial,sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 0 0.2rem;
+}
+
+.pipSectionHeader .pip-header-holder h2 {
+    font-family: HyundaiMedium;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+}
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.pipSectionHeader .pip-header-holder .btn-pip {
+    padding: 0.3rem 2.5rem;
+}
+
+.btn-standard {
+    min-width: 140px;
+    background-color: #002c5f;
+    color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    -webkit-transition: background-color .5s ease-in-out;
+}
+
+@media (min-width: 576px){
+    .pipSectionHeader {
+        height: calc(100vh - 165px);
+    }
+
+    .pipSectionHeader .pip-header-holder {
+        width: 80%;
+        height: 80%;
+    }
+
+    .pipSectionHeader .pip-header-holder .pip-header-text {
+        position: absolute;
+        left: -2rem;
+        bottom: 3.5rem;
+        width: 100%;
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .pipSectionHeader .pip-header-holder h1 {
+        font-size: 5rem;
+        margin: 0 0 0.5rem;
+    }
+
+    .pipSectionHeader .pip-header-holder h2 {
+        font-size: 1.725rem;
+    }
+
+    .pipSectionHeader .pip-header-holder .btn-pip {
+        padding: 0.7rem 5rem;
+    }
+
+
+
+
+}
+
+@media (max-width: 992px){
+    .pipContainer {
+        font-size: 16px;
+    }
+}

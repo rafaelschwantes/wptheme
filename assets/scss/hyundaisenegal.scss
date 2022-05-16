@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import 'hyundaisenegal/components/safety';
+
+
+body {
+    @include mixinSafety('mobile');
+
+}
+
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    body {
+        @include mixinSafety('tablet');
+
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    body {
+        @include mixinSafety('desktop');
+
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    body {
+        @include mixinSafety('xx-1200');
+
+
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    body {
+        @include mixinSafety('xx-1400');
+
+
+    }
+}

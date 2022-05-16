@@ -1,0 +1,50 @@
+@mixin mixinContainer($breakpoint) {
+
+    @if($breakpoint == 'mobile'){
+
+        .container{
+            width: 100%;
+            margin: 0 auto;
+            min-width: 300px;      
+        }
+        
+        .content{
+            width: 95%;
+        }
+
+        .content-full{
+            width: 100vw !important;
+        }
+    }
+
+    @if($breakpoint == 'tablet'){
+        .container{
+            width: 100%;
+            max-width: 1728px;  
+        }
+
+        .content{
+            width: 90%;
+        }
+
+    }
+
+    @if($breakpoint == 'desktop'){
+        
+    }
+
+    @if($breakpoint == 'xx-1200'){
+
+    }
+
+
+    @if($breakpoint == 'xx-1400'){
+
+    }
+
+}   
+
+
+
+
+
